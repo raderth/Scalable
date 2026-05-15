@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.raderth.scalable.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ServerChunkCacheMixin",
+    "ChunkHolderMixin",
+    "ChunkMapAccessor",
+    "ServerLevelMixin",
+    "MinecraftServerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

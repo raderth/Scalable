@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "scalable",
+  "version": "2.0.0",
+  "name": "Scalable",
+  "description": "Multi-purpose optimization mod with dynamic performance scaling",
+  "authors": [
+    "raderth"
+  ],
+  "contact": {
+    "homepage": "https://playdwp.net",
+    "sources": "https://github.com/raderth/scalable"
+  },
+  "license": "MIT",
+  "icon": "assets/scalable/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "net.raderth.scalable.ScalableMod"
+    ]
+  },
+  "mixins": [
+    "scalable.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "~26.1",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
